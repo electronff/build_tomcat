@@ -39,6 +39,4 @@ jobs:
       run: cp -v tomcat-users.xml ./tomcat/conf/tomcat-users.xml
 
     - name: Compile Tomcat
-      run: |
-        cd ./tomcat
-        ant
+      run: cd ./tomcat
